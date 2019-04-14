@@ -9,4 +9,4 @@ setup(
     'between multiproccessing Python processes.',
     url='https://github.com/ctrl-labs/cringbuffer',
     py_modules=['ringbuffer'],
-    install_requires=['numpy>=1.16.0'])
+    requires=['numpy (>=1.16.0)'])
