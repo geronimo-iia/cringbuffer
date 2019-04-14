@@ -8,4 +8,5 @@ setup(
     description='Ring buffer that allows for high-throughput data transfer'
     'between multiproccessing Python processes.',
     url='https://github.com/ctrl-labs/cringbuffer',
-    py_modules=['ringbuffer'])
+    py_modules=['ringbuffer'],
+    install_requires=['numpy>=1.16.0'])
